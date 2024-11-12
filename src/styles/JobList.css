@@ -1,0 +1,89 @@
+.job-list {
+  background-color: #f5f5f5;
+  padding: 20px;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.results-count {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 10px;
+}
+
+.job-card {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.job-card .title {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.job-card .type {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 10px;
+}
+
+.job-card .description {
+  font-size: 14px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.job-card .deadline {
+  font-size: 14px;
+  color: #666;
+}
+
+.job-card .add-to-favorites {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 10px;
+}
+
+.job-card .add-to-favorites button {
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.job-card .add-to-favorites button:hover {
+  background-color: #388e3c;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.pagination button {
+  background-color: #e0e0e0;
+  color: #333;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  font-size: 14px;
+  margin: 0 5px;
+  cursor: pointer;
+}
+
+.pagination button.active {
+  background-color: #4caf50;
+  color: #fff;
+}
+
+.pagination button:hover {
+  background-color: #ccc;
+}

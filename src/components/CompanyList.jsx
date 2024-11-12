@@ -1,5 +1,5 @@
 // import React from "react";
-// import FavoriteButton from "../components/FavoriteButton";
+import FavoriteButton from "../components/FavoriteButton";
 import "../styles/Buttons.css";
 import "../styles/CompanyList.css";
 
@@ -9,11 +9,11 @@ function CompanyList() {
       <h2>Company List</h2>
       <div>
         <p>Company A</p>
-        {/* <FavoriteButton /> */}
+        <FavoriteButton />
       </div>
       <div>
         <p>Company B</p>
-        {/* <FavoriteButton /> */}
+        <FavoriteButton />
       </div>
     </div>
   );
